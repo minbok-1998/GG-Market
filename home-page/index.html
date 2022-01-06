@@ -11,17 +11,33 @@
 </head>
 <body>
     <header>
-        <h1 class="tit-feed">감귤마켓 피드</h1>
-        <button class="btn-search-feed"></button>
+        <div class="head-feed">
+            <h1 class="tit-feed">감귤마켓 피드</h1>
+            <button class="btn-search-user"></button>
+        </div>
+        <form class="head-search hidden">
+            <button class="btn-back-to-feed"></button>
+            <input required type="text" maxlength="20" placeholder="계정검색">
+        </form>
     </header>
     <main>
-        <section class="cont-user-search">
-            <h2 class="tit-search">유저를 검색해 팔로우 해보세요!</h2>
-            <button class="btn-module btn-M">검색하기</button>
+        <!-- 메인 피드 -->
+        <section class="cont-feed"> 
+            <!-- 게시물이 없는 최초의 피드(initial feed) -->
+            <div class="cont-ini-feed">
+                <h2 class="tit-search">유저를 검색해 팔로우 해보세요!</h2>
+                <button class="btn-module btn-M">검색하기</button>
+            </div>
+            <!-- 게시물이 추가될 피드 -->
+        </section>
+
+        <!-- 유저 검색 피드 -->
+        <section class="cont-search-feed">
+            <h2 class="txt-hide">유저 검색</h2>
         </section>
     </main>
     <footer>
-        <nav>
+        <nav class="nav-home-page">
             <ul class="nav-module">
                 <li class="nav-li-module nav-home">홈</li>
                 <li class="nav-li-module nav-chat">채팅</li>
@@ -30,5 +46,6 @@
             </ul>
         </nav>
     </footer>
+    <script src="../src/js/home-page-search.js"></script>
 </body>
 </html>

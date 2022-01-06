@@ -44,11 +44,6 @@ html {
     font-size: 10px;
 }
 
-body {
-    margin: 100px;
-}
-
-
 /* 모듈 - 버튼 */
 .btn-module {
     background: #F26E22;
@@ -58,6 +53,7 @@ body {
     color: #FFFFFF;
     font-weight: 500;
     padding: 13px 0;
+    cursor: pointer;
 }
 
 .btn-L {

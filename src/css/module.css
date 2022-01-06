@@ -1,0 +1,94 @@
+/* 폰트 */
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 700;
+    src: local('Spoqa Han Sans Bold'),
+        url('../fonts/SpoqaHanSans/SpoqaHanSansBold.woff2') format('woff2'),
+        url('../fonts/SpoqaHanSans/SpoqaHanSansBold.woff') format('woff'),
+        url('../fonts/SpoqaHanSans/SpoqaHanSansBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 400;
+    src: local('Spoqa Han Sans Regular'),
+        url('../fonts/SpoqaHanSans/SpoqaHanSansRegular.woff2') format('woff2'),
+        url('../fonts/spoqa-han-sans/SpoqaHanSans/SpoqaHanSansRegular.woff') format('woff'),
+        url('../fonts/spoqa-han-sans/SpoqaHanSans/SpoqaHanSansRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 300;
+    src: local('Spoqa Han Sans Light'),
+        url('../fonts/SpoqaHanSans/SpoqaHanSansLight.woff2') format('woff2'),
+        url('../fonts/SpoqaHanSans/SpoqaHanSansLight.woff') format('woff'),
+        url('../fonts/SpoqaHanSans/SpoqaHanSansLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 100;
+    src: local('Spoqa Han Sans Thin'),
+        url('../fonts/SpoqaHanSans/SpoqaHanSansThin.woff2') format('woff2'),
+        url('../fonts/SpoqaHanSans/SpoqaHanSansThin.woff') format('woff'),
+        url('../fonts/SpoqaHanSans/SpoqaHanSansThin.ttf') format('truetype');
+}
+
+/* 기본 설정 */
+* {
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 100px;
+}
+
+
+/* 모듈 - 버튼 */
+.btn-module {
+    background: #F26E22;
+    border-radius: 44px;
+    font-size: 1.4rem;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding: 13px 0;
+}
+
+.btn-L {
+    padding: 13px 0;
+    width: 322px;
+}
+
+.btn-M {
+    width: 120px;
+    padding: 10px 0;
+    border-radius: 30px;
+}
+
+.btn-Ms {
+    width: 90px;
+    padding: 9px 0;
+    border-radius: 32px;
+}
+
+.btn-S {
+    width: 56px;
+    padding: 9px 0;
+    border-radius: 26px;
+}
+
+.btn-dis {
+    background: #FFC7A7;
+}
+
+.btn-act {
+    background: #FFFFFF;
+    color: #767676;
+    border: 1px solid #DBDBDB;
+}

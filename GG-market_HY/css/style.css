@@ -1,0 +1,298 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    background-color: #eeeeee;
+}
+
+/* module */
+
+.btn {
+    width: 322px;
+    height: 44px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    border-radius: 44px;
+    cursor: pointer;
+}
+
+.input {
+    width: 322px;
+    height: 33px;
+    border: none;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #DBDBDB;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    color: #767676;
+}
+
+.nextBtn {
+    border: none;
+    background-color: #FFC7A7;
+    color: #fff;
+}
+
+/* class */
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+main {
+    display: flex;
+    width: 390px;
+    height: 820px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Splash Screen */
+
+#loading {
+    /* position: relative; */
+    width: 100%;
+    background-color: #fff;
+}
+
+#loading img {
+    position: absolute;
+    width: 200px;
+    margin-top: 270px;
+    margin-left: 95px;
+}
+
+/* login */
+
+#login {
+    width: 100%;
+    background-color: #EA7F42;
+}
+
+#login .whiteLogo {
+    width: 390px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 204px;
+}
+
+#login .whiteLogo img {
+    width: 144px;
+}
+
+#login .snsBtn {
+    display: flex;
+    justify-content: center;
+    width: 390px;
+    height: 362px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: 525px;
+    padding-top: 50px;
+}
+
+#login .snsBtn .sns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 152px;
+}
+
+#login .snsBtn .kakao .loginwithKakao,
+#login .snsBtn .google .loginwithgoogle,
+#login .snsBtn .facebook .loginwithfacebook {
+    color: #767676;
+    background-color: #fff;
+    cursor: pointer;
+
+}
+
+#login .snsBtn .kakao .loginwithKakao {
+    border: 1px solid #F2C94C;
+}
+
+#login .snsBtn .google .loginwithgoogle {
+    border: 1px solid #767676;
+}
+
+#login .snsBtn .facebook .loginwithfacebook {
+    border: 1px solid #2D9CDB;
+}
+
+#login .snsBtn .join {
+    position: absolute;
+    display: flex;
+    color: #767676;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 172px;
+}
+
+#login .snsBtn .join .useEmail {
+    padding-right: 12px;
+    border-right: 2px solid #C4C4C4;
+    cursor: pointer;
+}
+
+#login .snsBtn .join .signUp {
+    padding-left: 12px;
+    cursor: pointer;
+}
+
+/* login Email */
+
+#loginEmail {
+    width: 100%;
+    background-color: #fff;
+}
+
+#loginEmail .loginWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#loginEmail .loginWrap .title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+#loginEmail .loginWrap .label #email {
+    margin-bottom: 16px;
+}
+
+#loginEmail .loginWrap .label #pw {
+    margin-bottom: 30px;
+}
+
+#loginEmail .loginWrap p {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #767676;
+    cursor: pointer;
+}
+
+/* join Member Ship */
+
+#joinMembership {
+    width: 100%;
+    background-color: #fff;
+}
+
+#joinMembership .joinWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#joinMembership .joinWrap .title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+#joinMembership .joinWrap .label #joinemail {
+    margin-bottom: 16px;
+}
+
+#joinMembership .joinWrap .label #joinpw {
+    margin-bottom: 30px;
+}
+
+#joinMembership .joinWrap .goJoin {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #767676;
+    cursor: pointer;
+}
+
+/* join Member Ship -2 */
+
+#setWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+}
+
+#setWrap .setText h1 {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #000;
+    text-align: center;
+}
+
+#setWrap .setText p {
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #767676;
+}
+
+#setWrap .profile {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#setWrap .profile .profileImg {
+    position: absolute;
+    width: 110px;
+    cursor: pointer;
+}
+
+#setWrap .profile .upload {
+    position: absolute;
+    width: 36px;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+#setWrap .start {
+    margin-top: 30px;
+}

@@ -88,3 +88,47 @@ html {
     color: #767676;
     border: 1px solid #DBDBDB;
 }
+
+.nav-module {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 6px;
+    height: 60px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizie: border-box;
+    border-top: 0.5px solid #DBDBDB;
+}
+.nav-li-module {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 84px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: #767676;
+}
+
+.nav-li-module::before {
+    content: '';
+    display: block;
+    clear: both;
+    width: 24px;
+    height: 24px;
+    background: url('../img/nav_icon_sprites.png') -10px -10px;
+    margin-bottom: 5px;
+}
+
+.nav-home::before {
+    background-position: -54px -10px;
+}
+
+.nav-chat::before {
+    background-position: -10px -54px;
+}
+
+.nav-profile::before {
+    background-position: -54px -54px;
+}
